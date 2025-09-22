@@ -17,9 +17,10 @@ After downloading DDR, you can reference our augmentation code and sample images
 
 ## 📂 Repository Contents
 
-- `augmentations/` — scripts and configuration used for artifact overlay
+- `augmentations/` — scripts and configuration used for artifact overlay  
+- `preprocessing/` — example UNet model trained to remove artifacts from augmented images  
 - `CITATION.bib` — how to cite the original dataset and this augmentation work  
-- `LICENSE` — MIT license
+- `LICENSE` — MIT license  
 
 ---
 
@@ -33,11 +34,19 @@ After downloading DDR, you can reference our augmentation code and sample images
 
 ## ⚙️ Usage
 
-1. Download and extract the **original DDR dataset** into the data folder.  
-2. Use the augmentation scripts in `augmentations/` (optional) to apply artifact overlays on your own copy of DDR.    
-3. Augmented samples in `augmentations/output/` demonstrate expected outputs.
+1. Download and extract the **original DDR dataset** into the `data/` folder.  
+2. Use the augmentation scripts in `augmentations/` (optional) to apply artifact overlays on your own copy of DDR.  
+3. Augmented samples in `augmentations/output/` demonstrate expected outputs.  
+4. Additionally, an example **preprocessing UNet model** is provided to remove artifacts from DR images.
 
-> Note: Only a **subset of augmented images** is provided here; to generate the full augmented dataset, run the augmentation pipeline on complete dataset.
+> Note: Only a **subset of augmented images** is provided here; to generate the full augmented dataset, run the augmentation pipeline on the complete dataset.  
+
+---
+
+## 📦 Complete Augmented Dataset
+
+The full augmented DDR dataset can be accessed on Hugging Face:  
+[DDR-Augmented-Artifacts on Hugging Face](https://huggingface.co/datasets/shubham212/DR_Artifacts)  
 
 ---
 
@@ -59,8 +68,8 @@ Please cite **both the original DDR dataset and this augmentation work** if you 
 }
 
 @misc{Aggarwal2025_arxiv,
-  title = {DDR-Augmented-Artifacts: Synthetic Artifact Overlays for Robust Diabetic Retinopathy Models},
-  author = {Shubham Aggarwal},
-  year = {2025},
-  url = {https://arxiv.org/abs/XXXX.XXXXX}
+  title = DDR-Augmented-Artifacts: Synthetic Artifact Overlays for Robust Diabetic Retinopathy Models,
+  author = Shubham Aggarwal,
+  year = 2025,
+  url = https://arxiv.org/abs/XXXX.XXXXX
 }
