@@ -53,7 +53,7 @@ After downloading DDR, you can use our augmentation scripts to generate artifact
 2. Use the augmentation scripts in `augmentations/` to generate artifact-overlaid images on your own copy of DDR
 3. To remove artifacts using our sample ResU-Net model:
 
-   * Download the model weights from [this link](link_to_model_weights) and place them in `preprocessing/`
+   * Download the model weights from [this link](https://drive.google.com/file/d/1ukObjOJXl4bBVmqzkjx3j7LEufeVS8mS/view?usp=sharing) and place them in `preprocessing/`
    * Run `preprocessing/scripts/inference.py` to generate cleaned images
    * Example outputs are saved in `preprocessing/output/`
 4. Training scripts in `preprocessing/scripts/train.py` allow retraining the ResU-Net model on your own augmented dataset
