@@ -11,7 +11,7 @@ The raw DDR dataset must be downloaded separately:
 
 > Paper citation: Li et al., *Information Sciences*, 2019.
 
-After downloading DDR, you can use our augmentation scripts to generate artifact-overlaid images or use the sample augmented images provided.
+After downloading DDR, you can use our augmentation scripts to generate artifact-overlaid images or use the sample augmented images provided. The sample augmented images (1,000) are available at augmentations/output.
 
 ---
 
