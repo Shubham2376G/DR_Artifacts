@@ -26,7 +26,7 @@ After downloading DDR, you can use our augmentation scripts to generate artifact
 ---
 
 ## 🖼️ Preprocessed Output (Model Demonstration)
-<img src="preprocessing/output_examples/compare3.jpg" alt="Comparison" width="1000"/>
+<img src="preprocessing/output_examples/compare4.jpg" alt="Comparison" width="1000"/>
 
 > Above image demonstrates the model capability to remove artifacts from the unseen image.
 
