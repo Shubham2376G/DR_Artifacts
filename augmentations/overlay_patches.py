@@ -53,4 +53,4 @@ for retina_path in retina_images:
     out_name = f"{retina_base}_{artifact_base}.png"
     cv2.imwrite(os.path.join(output_dir, out_name), blended)
 
-print("✅ Done. All images saved in 'output' folder.")
+print("All images saved in 'output' folder.")
